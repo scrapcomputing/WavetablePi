@@ -23,7 +23,7 @@ For controlling the mt32-pi from DOS, please use [mt32-pi-control](https://githu
 - Also please make sure that there is enough clearance between the WavetablePi and the sound card. Some cards have large components that may touch the raspberry pi a
 - A WavetablePi with the DAC or the OLED display takes quite a bit of vertical space, so you will end up wasting one ISA slot! There is just no room for a card right next to the sound card, as the OLED display and the DAC will be in the way.
 - Finally please check that the PCM5102A HiFi DAC is in the form factor that fits the board. The one I am using is approximately 32mm x 17mm. Also please check that the pinout matches.
-- For ordering the PCB, you usually just need to upload the zipped [gerber files](https://github.com/scrapcomputing/WavetablePi/releases/download/rev0.2/WavetablePi_rev0.2.zip) to the fab's website.
+- For ordering the PCB, you usually just need to upload the zipped [gerber files](https://github.com/scrapcomputing/WavetablePi/releases/download/rev0.3/WavetablePi_gerbers_rev0.3.zip) to the fab's website.
 
 # Bill of materials
 

@@ -25,6 +25,21 @@ For controlling the mt32-pi from DOS, please use [mt32-pi-control](https://githu
 - Finally please check that the PCM5102A HiFi DAC is in the form factor that fits the board. The one I am using is approximately 32mm x 17mm. Also please check that the pinout matches.
 - For ordering the PCB, you usually just need to upload the zipped [gerber files](https://github.com/scrapcomputing/WavetablePi/releases/download/rev0.3/WavetablePi_gerbers_rev0.3.zip) to the fab's website.
 
+
+# Assembly Tips / Troubleshooting
+- For attaching the Pi flush against the board, it may be better to cut the 40-pin header into short sections (like 2x3) before soldering them. This should make it easier to solder and to remove the plastic spacers after soldering.
+- DAC Board: Before soldering, check if the address solder bridges on the back are set: https://github.com/dwhinham/mt32-pi/wiki/GY-PCM5102-DAC-module
+- If the music sounds weird, or slow check `mt32-pi.cfg`. You may need to set `gpio_baud_rate = 31250`.
+- Please check out the detailed documentation of the mt32-pi project: https://github.com/dwhinham/mt32-pi
+
+These tips are based on feedback from [ThatRed](https://github.com/ThatRed) (many thanks!). Feel free to check out the full text: https://github.com/scrapcomputing/WavetablePi/issues/1
+
+
+# Videos
+- Original Wavetable-Pi video: https://www.youtube.com/watch?v=xC-qhcPUeRs
+- PWM audio improvements: https://www.youtube.com/watch?v=HqzHcLejGF4
+
+
 # Bill of materials
 
 Item                                     | #   | Description
@@ -40,5 +55,5 @@ Resistor 22K Ohm                         | 1   |
 Resistor 10K Ohm                         | 1   |
 Resistor 1K Ohm                          | 2   | R3 and R4, which along with C3 and C4 form a low-pass filter of the PWM audio
 0.91 OLED SSD1306 I2C 128x32 module      | 1   | (Optional)
-PCM5102A I2S DAC Module                  | 1   | (Optional but highly recommended) Please check the PCB for the supported dimensions and form factor!
+PCM5102A I2S DAC Module (aka GY PCM5120) | 1   | (Optional but highly recommended) Please check the PCB for the supported dimensions and form factor!
 

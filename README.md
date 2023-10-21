@@ -10,6 +10,7 @@ For controlling the mt32-pi from DOS, please use [mt32-pi-control](https://githu
 <p float="left">
 <img src='img/WavetablePi_PCB_front.png' alt='WavetablePi PCB Front' height=240>
 <img src='img/WavetablePi_PCB_back.png' alt='WavetablePi PCB Back' height=240>
+<img src='img/WavetablePi_Schematic.png' alt='WavetablePi Schematic' height=240>
 </p>
 
 # Features

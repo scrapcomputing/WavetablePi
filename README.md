@@ -13,6 +13,8 @@ For controlling the mt32-pi from DOS, please use [mt32-pi-control](https://githu
 <img src='img/WavetablePi_Schematic.png' alt='WavetablePi Schematic' height=240>
 </p>
 
+- For the "Horizontal" version of this board please check out [WavetablePiHoriz](https://github.com/scrapcomputing/WavetablePiHoriz).
+
 # Features
 
 - It currently supports two modes of audio: using the raspberry pi's PWM audio out (which is noisy and sounds pretty bad), and an external Hi-Fi PCM5102A based DAC.

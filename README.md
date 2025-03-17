@@ -39,8 +39,9 @@ These tips are based on feedback from [ThatRed](https://github.com/ThatRed) (man
 
 
 # Videos
-- Original Wavetable-Pi video: https://www.youtube.com/watch?v=xC-qhcPUeRs
-- PWM audio improvements: https://www.youtube.com/watch?v=HqzHcLejGF4
+- [Original Wavetable-Pi video](https://www.youtube.com/watch?v=xC-qhcPUeRs)
+- [PWM audio improvements](https://www.youtube.com/watch?v=HqzHcLejGF4)
+- [Awesome video by Bits und Bolts](https://www.youtube.com/watch?v=s2xgwXyD_c8)
 
 
 # Bill of materials

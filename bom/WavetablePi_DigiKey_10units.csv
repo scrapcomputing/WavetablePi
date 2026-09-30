@@ -1,0 +1,11 @@
+Reference,Name,DigiKey Part Number,Quantity,Manufacturer,Manufacturer Part Number,Customer Reference
+"C1, C2","10uF 25V X5R ceramic, radial 5mm kinked leads (audio output coupling)",445-181284-1-ND,20,TDK,FG28X5R1E106MRT06,WavetablePi C1 C2
+"C3, C4","100nF 63V 5% WIMA MKS2 metallized PET film, 5mm pitch (PWM low-pass filter)",1928-MKS2C031001A00JSSD-ND,20,WIMA,MKS2C031001A00JSSD,WavetablePi C3 C4
+R1,10K 1% 50ppm Vishay Dale CMF55 metal film (MIDI IN level divider),CMF10.0KHFCT-ND,10,Vishay Dale,CMF5510K000FHEB,WavetablePi R1
+R2,22.1K 1% 50ppm Vishay Dale CMF55 metal film (MIDI IN level divider),CMF22.1KHFCT-ND,10,Vishay Dale,CMF5522K100FHEB,WavetablePi R2
+"R3, R4",1K 1% 50ppm Vishay Dale CMF55 metal film (PWM low-pass filter),CMF1.00KHFCT-ND,20,Vishay Dale,CMF551K0000FHEB,WavetablePi R3 R4
+Audio_Select1,"Pin header 2x3 2.54mm vertical, gold flash, breakaway (audio source select)",35-PRPC003DAAN-RC-ND,10,Sullins,PRPC003DAAN-RC,WavetablePi Audio_Select1
+Audio_Select1 jumpers,"Jumper socket 2.54mm, black, open top, gold, 6.00mm",952-2881-ND,20,Harwin,M7582-05,WavetablePi Audio_Select1 jumpers
+RPi1,Raspberry Pi Zero 2 W (without header),2648-SC1176-ND,10,Raspberry Pi,SC1176,WavetablePi RPi1
+RPi1 header,"Pin header 2x20 2.54mm vertical, breakaway (mounts Pi Zero flush to the board)",35-PRPC020DAAN-RC-ND,10,Sullins,PRPC020DAAN-RC,WavetablePi RPi1 header
+Wavetable1,"Socket 2x13 2.54mm vertical, gold, 8.50mm (wavetable connector)",732-61302621821-ND,10,Wurth Elektronik,61302621821,WavetablePi Wavetable1

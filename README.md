@@ -46,6 +46,8 @@ These tips are based on feedback from [ThatRed](https://github.com/ThatRed) (man
 
 # Bill of materials
 
+For a DigiKey order list with audio-grade parts, DigiKey part numbers and reference designators (for 1 and 10 units), see [bom/README.md](bom/README.md).
+
 Item                                     | #   | Description
 -----------------------------------------|-----|-----------------------------------------
 Raspberry Pi Zero 2 W                    | 1   | The older RPi Zero is not fast enough
